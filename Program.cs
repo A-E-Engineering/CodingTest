@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using CodeingTest.Data;
+using CodingTest.Data;
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<CodeingTestContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("CodeingTestContext") ?? throw new InvalidOperationException("Connection string 'CodeingTestContext' not found.")));
+builder.Services.AddDbContext<CodingTestContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("CodingTestContext") ?? throw new InvalidOperationException("Connection string 'CodingTestContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

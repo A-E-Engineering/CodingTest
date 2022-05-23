@@ -1,4 +1,4 @@
-﻿namespace CodeingTest.Models
+﻿namespace CodingTest.Models
 {
     public class Employee
     {

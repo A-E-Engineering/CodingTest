@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using CodeingTest.Models;
+using CodingTest.Models;
 
-namespace CodeingTest.Data
+namespace CodingTest.Data
 {
-    public class CodeingTestContext : DbContext
+    public class CodingTestContext : DbContext
     {
-        public CodeingTestContext (DbContextOptions<CodeingTestContext> options)
+        public CodingTestContext (DbContextOptions<CodingTestContext> options)
             : base(options)
         {
         }
 
-        public DbSet<CodeingTest.Models.Employee>? Employee { get; set; }
+        public DbSet<CodingTest.Models.Employee>? Employee { get; set; }
     }
 }

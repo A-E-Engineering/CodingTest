@@ -1,8 +1,8 @@
-﻿using CodeingTest.Models;
+﻿using CodingTest.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace CodeingTest.Controllers
+namespace CodingTest.Controllers
 {
     public class HomeController : Controller
     {

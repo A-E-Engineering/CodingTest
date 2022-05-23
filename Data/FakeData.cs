@@ -1,6 +1,6 @@
-﻿using CodeingTest.Models;
+﻿using CodingTest.Models;
 
-namespace CodeingTest.Data
+namespace CodingTest.Data
 {
     public class FakeData
     {
